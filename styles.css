@@ -229,6 +229,5 @@ body.has-buybar footer{padding-bottom:120px}
 .app-cta .shots img.p{position:absolute;right:0;bottom:-10px;width:30%;border-radius:22px;border:7px solid #0B110E;box-shadow:0 30px 50px -20px rgba(0,0,0,.6)}
 .app-cta .pricebox{margin:18px 0 12px}
 .app-cta .facts{font-size:15px;color:var(--muted);margin:12px 0 0}
-@media (max-width:980px){.cc,.cheap,.app-cta{grid-template-columns:1fr}.cc-out{display:contents}.bowser{order:-1;position:sticky;top:76px;z-index:5}.split{order:1}.app-cta .shots{min-height:0;margin-top:10px}}
-@media (max-width:560px){.cc-hero{padding:44px 0 100px}.cc-panel{padding:20px 18px 6px;border-radius:20px}.bowser{padding:16px;border-radius:22px}.cheap{padding:22px 18px}.split li{grid-template-columns:82px 1fr 74px;font-size:14px}.cc-num input{width:70px}
-.bowser p,.bowser-top span{display:none}.bowser-top{margin-bottom:8px}.lcd{padding:7px 12px 6px;margin-bottom:6px}.lcd.big output{font-size:36px}.lcd-pair output{font-size:22px}}
+@media (max-width:980px){.cc,.cheap,.app-cta{grid-template-columns:1fr}.cc-out{display:contents}.bowser{order:-1;position:sticky;top:76px;z-index:5}.split{order:1}.bowser{padding:12px 14px;border-radius:20px}.bowser p,.bowser-top span{display:none}.bowser-top{margin-bottom:6px}.bowser-top b{font-size:16px}.lcd{padding:6px 12px 5px;margin-bottom:6px}.lcd span{font-size:12px}.lcd.big output{font-size:34px}.lcd-pair output{font-size:21px}.cc-row{scroll-margin-top:260px}.app-cta .shots{min-height:0;margin-top:10px}}
+@media (max-width:560px){.cc-hero{padding:44px 0 100px}.cc-panel{padding:20px 18px 6px;border-radius:20px}.bowser{padding:16px;border-radius:22px}.cheap{padding:22px 18px}.split li{grid-template-columns:82px 1fr 74px;font-size:14px}.cc-num input{width:70px}}

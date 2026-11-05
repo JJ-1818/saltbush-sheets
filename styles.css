@@ -175,6 +175,12 @@ body.has-buybar footer{padding-bottom:120px}
 @media (max-width:380px){.buybar .nm{display:none}.buybar{justify-content:space-between}}
 
 /* car cost calculator */
+/* WA Fill-Up Alerts waitlist card (5 Nov 2026): demand test, sits below the tracker Buy CTA */
+.wl{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center;border:1.5px dashed #C9BFA9;border-radius:22px;padding:22px 26px;margin:6px 0 34px;background:#fff}
+.wl .tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--buy);margin-bottom:6px}
+.wl h2{font-size:clamp(20px,2.4vw,25px);margin:0 0 6px}.wl p{margin:0;color:var(--muted);font-size:15.5px}.wl small{display:block;margin-top:6px;color:var(--muted);font-size:13px}
+@media (max-width:760px){.wl{grid-template-columns:1fr}}
+
 .freetool{display:inline-flex;align-items:center;gap:10px;margin-top:22px;color:#F2C49B;font-weight:600;text-decoration:none;border-bottom:1.5px solid rgba(242,196,155,.45);padding:6px 0;font-size:16px}
 .freetool:hover{color:#FBF8F2;border-bottom-color:#FBF8F2}.freetool svg{width:20px;height:20px}
 .cc-hero{background:radial-gradient(90% 120% at 85% 10%,#2A4438 0,var(--euc-d) 48%,var(--euc-dd) 100%);color:#EEF2EC;padding:64px 0 120px;position:relative;overflow:hidden}
